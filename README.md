@@ -1,8 +1,8 @@
-# 🏛️ Better LB (Los Baños)
+# 🏛️ Better Antipolo City
 
-A community-led, open-source portal designed to make the government of the **Municipality of Los Baños** accessible, transparent, and user-friendly.
+A community-led, open-source portal designed to make the government of the **City of Antipolo** accessible, transparent, and user-friendly.
 
-This project is a municipal-focused fork of [BetterGov.ph](https://bettergov.ph), adapted to meet the specific needs of Los Bañenses.
+This project is a fork of [BetterGov.ph](https://bettergov.ph), adapted to meet the specific needs of Antipolenos.
 
 ---
 ### Inspirations
