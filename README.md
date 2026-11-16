@@ -8,11 +8,13 @@ This project is a fork of [BetterGov.ph](https://bettergov.ph), adapted to meet 
 ### Inspirations
 
 BetterGov.PH https://github.com/bettergovph/bettergov
+
 BetterSolano.org https://github.com/BetterSolano/bettersolano
+
 Betterlocalgov https://github.com/iyanski/betterlocalgov
 
 ### Portal Features
-BetterLB provides Los Baños with:
+BetterAntipolo provides City of Antipolo with:
 - **Public Services Directory**: Comprehensive guide to municipal services with requirements, fees, and step-by-step processes
 - **Legislative Portal**: Access to ordinances, resolutions, and executive orders from the Sangguniang Bayan
 - **Transparency Dashboard**: Financial data, procurement bids, and infrastructure projects
@@ -23,7 +25,7 @@ BetterLB provides Los Baños with:
 
 ## 🔄 Forking for Your LGU
 
-BetterLB is designed to be easily adapted for any Local Government Unit (LGU) in the Philippines.
+BetterAntipolo is designed to be easily adapted for any Local Government Unit (LGU) in the Philippines.
 
 ## Quick Start for Other LGUs
 
@@ -44,18 +46,18 @@ BetterLB is designed to be easily adapted for any Local Government Unit (LGU) in
 
 ### Key Configuration Fields
 
-| Field | Description | Example (Los Baños) |
+| Field | Description | Example (Antipolo) |
 |-------|-------------|---------------------|
-| `lgu.name` | Short municipality name | "Los Baños" |
-| `lgu.fullName` | Full official name | "Municipality of Los Baños" |
-| `lgu.province` | Province name | "Laguna" |
+| `lgu.name` | Short municipality name | "Antipolo" |
+| `lgu.fullName` | Full official name | "City of Antipolo" |
+| `lgu.province` | Province name | "Rizal" |
 | `lgu.region` | Region name | "Region IV-A" |
 | `lgu.regionCode` | Region code | "CALABARZON" |
 | `lgu.type` | LGU type | "municipality" or "city" |
 | `lgu.officialWebsite` | Official LGU website | "https://losbanos.gov.ph" |
-| `portal.name` | Portal name | "BetterLB" |
-| `portal.baseUrl` | Portal base URL | "https://betterlb.org" |
-| `portal.tagline` | Portal tagline | "Community Powered Los Baños Portal" |
+| `portal.name` | Portal name | "BetterAntipolo" |
+| `portal.baseUrl` | Portal base URL | - |
+| `portal.tagline` | Portal tagline | "Community Powered Antipolo City Portal" |
 
 **Note:** See [`FORKING.md`](./FORKING.md) for comprehensive forking instructions including database setup for legislative data.
 
@@ -161,9 +163,9 @@ betterlb/
 - **Search Integration**: Meilisearch-powered search with real-time indexing
 - **Internationalization**: Multi-language support with i18next
 
-### Los Baños-Specific Data
+### Antipolo-Specific Data
 
-BetterLB includes structured data for Los Baños:
+BetterLB includes structured data for Antipolo:
 
 | Data Type | Location | Description |
 |-----------|----------|-------------|
@@ -176,7 +178,7 @@ BetterLB includes structured data for Los Baños:
 
 #### Data Pipeline for Legislative Documents
 
-Los Baños legislative documents are processed through a Python pipeline:
+Antipolo legislative documents are processed through a Python pipeline:
 
 1. **Scrape** (`pipeline/1_scrape.py`) - Download PDFs from official sources
 2. **Normalize** (`pipeline/1.5_normalize.py`) - Standardize filenames and metadata
@@ -224,15 +226,15 @@ npm run build           # Combines merge_services, TypeScript, and Vite build
 
 ---
 
-## 🏛️ Los Baños Government Structure
+## 🏛️ Antipolo Government Structure
 
 ### Executive Branch
-- **Mayor**: Chief executive officer of the municipality
+- **Mayor**: Chief executive officer of the city
 - **Vice Mayor**: Presiding officer of the Sangguniang Bayan and mayoral successor
 - **Municipal Departments**: Administrative offices implementing municipal programs
 
 ### Legislative Branch (Sangguniang Bayan)
-The Sangguniang Bayan is the legislative body of Los Baños, composed of:
+The Sangguniang Bayan is the legislative body of Antipolo, composed of:
 - **Vice Mayor** (Presiding Officer)
 - **8 Regular Councilors** (District representatives)
 - **2 Ex-Officio Councilors** (ABC President and SK Federation President)
@@ -252,7 +254,7 @@ See the [Government Directory](https://betterlb.org/government) on the live site
 ---
 
 ## Join the Grassroots Movement
-We are looking for volunteers passionate individuals who want to make Los Baños a better place. You don't need to be a developer to help!
+We are looking for volunteers passionate individuals who want to make Antipolo a better place. You don't need to be a developer to help!
 
 ### How You Can Contribute:
 1.  **Non-Developers**: Visit the `/contribute` page on the live site to suggest new services or fix outdated information via GitHub Issues (requires a free GitHub account).
@@ -303,7 +305,7 @@ BetterLB aggregates data from multiple sources:
 
 | Data Source | Type | Attribution |
 |-------------|------|-------------|
-| **Municipality of Los Baños** | Official government data, services directory | Public domain |
+| **City of Antipolo** | Official government data, services directory | Public domain |
 | **Philippine Government Procurement Portal (PhilGEPS)** | Procurement bids and awards | Republic of the Philippines |
 | **Department of Budget and Management (DBM)** | Financial releases | Republic of the Philippines |
 | **Department of Public Works and Highways (DPWH)** | Infrastructure projects | Republic of the Philippines |
@@ -315,9 +317,9 @@ BetterLB aggregates data from multiple sources:
 
 ## 📞 Contact and Support
 
-### For Los Baños Residents
-- **Website**: https://betterlb.org
-- **GitHub Issues**: Report bugs or suggest features at [github.com/BetterLosBanos/betterlb/issues](https://github.com/BetterLosBanos/betterlb/issues)
+### For Antipolo Residents
+- **Website**: -
+- **GitHub Issues**: Report bugs or suggest features at 
 - **Community**: Join our community contributions via the "Contribute" page on the portal
 
 ### For Other LGUs
