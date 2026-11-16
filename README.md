@@ -54,7 +54,7 @@ BetterAntipolo is designed to be easily adapted for any Local Government Unit (L
 | `lgu.region` | Region name | "Region IV-A" |
 | `lgu.regionCode` | Region code | "CALABARZON" |
 | `lgu.type` | LGU type | "municipality" or "city" |
-| `lgu.officialWebsite` | Official LGU website | "https://losbanos.gov.ph" |
+| `lgu.officialWebsite` | Official LGU website | "https://antipolo.ph/" |
 | `portal.name` | Portal name | "BetterAntipolo" |
 | `portal.baseUrl` | Portal base URL | - |
 | `portal.tagline` | Portal tagline | "Community Powered Antipolo City Portal" |
